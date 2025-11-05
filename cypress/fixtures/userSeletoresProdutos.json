@@ -1,0 +1,17 @@
+{
+    "buttonAddToCartBackpack": "[data-test='add-to-cart-sauce-labs-backpack']",
+    "buttonAddToCartBike": "[data-test='add-to-cart-sauce-labs-bike-light']",
+    "buttonAddToCartBoltTShirt": "[data-test='add-to-cart-sauce-labs-bolt-t-shirt']",
+    "buttonAddToCartFleeceJacket": "[data-test='add-to-cart-sauce-labs-fleece-jacket']",
+    "buttonAddToCartOnesie": "[data-test='add-to-cart-sauce-labs-onesie']",
+    "buttonAddToCartRedTShirt": "[data-test='add-to-cart-test.allthethings()-t-shirt-(red)']",
+    "buttonRemoveBackpack": "[data-test='remove-sauce-labs-backpack']",
+    "buttonRemoveBike": "[data-test='remove-sauce-labs-bike-light']",
+    "buttonRemoveBoltTShirt": "[data-test='remove-sauce-labs-bolt-t-shirt']",
+    "buttonRemoveFleeceJacket": "[data-test='remove-sauce-labs-fleece-jacket']",
+    "buttonRemoveOnesie": "[data-test='remove-sauce-labs-onesie']",
+    "buttonRemoveRedTShirt": "[data-test='remove-test.allthethings()-t-shirt-(red)']",
+    "carrinhoBadge": "[data-test='shopping-cart-link']",
+    "buttonContinueShopping": "[data-test='continue-shopping']"
+
+}
