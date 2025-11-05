@@ -2,7 +2,7 @@
 
 # 🚀 Projeto de Testes de Automação Web com Cypress
 
-Este repositório contém um conjunto de testes End-to-End (E2E) desenvolvidos em **JavaScript** utilizando a ferramenta **Cypress**. Os testes focam na validação do fluxo de autenticação (Login) da aplicação de demonstração **Sauce Demo**.
+Este repositório contém um conjunto de testes End-to-End (E2E) desenvolvidos em **JavaScript** utilizando a ferramenta **Cypress**. Os testes focam na validação do fluxo de autenticação (Login), Navegação de Produtos e Gerenciamento do Carrinho de Compras da aplicação de demonstração **Swag labs**.
 
 ## 💻 Tecnologias Utilizadas
 
@@ -61,7 +61,7 @@ npx cypress run
 
 ## 🧪 Visão Geral dos Testes de Login
 
-O arquivo de teste principal, foca na validação completa do processo de autenticação utilizando os diversos usuários de teste fornecidos pelo Sauce Demo.
+O arquivo de teste principal, foca na validação completa do processo de autenticação utilizando os diversos usuários de teste fornecidos pelo Swag labs.
 
 | Teste | Descrição | Status Esperado |
 | :--- | :--- | :--- |
@@ -71,6 +71,8 @@ O arquivo de teste principal, foca na validação completa do processo de autent
 | **`Deve fazer login com usuário com desempenho lento`** | Valida o login do `performance_glitch_user` (usuário que simula lentidão). | Sucesso |
 | **`Deve fazer login com usuário com erro`** | Valida o login do `error_user`. | Sucesso |
 | **`Deve fazer login com usuário visual`** | Valida o login do `visual_user`. | Sucesso |
+| **`Gerenciamento de Carrinho`** | Adicionar todos os 6 produtos e verificar o contador | Sucesso |.
+| **`Gerenciamento de Carrinho`**	| Adicionar e remover todos os itens, garantindo que o carrinho esteja vazio | Sucesso |.
 
 ## 📐 Estrutura do Projeto
 
@@ -78,6 +80,8 @@ Este projeto utiliza um padrão para organizar seletores, o que facilita a manut
 
   * **`cypress/e2e/loginPage.cy.js`:** Contém a lógica dos cenários de teste de login.
   * **`cypress/fixtures/userSeletoresLoginPage.json`:** Contém os seletores CSS/XPath utilizados nos testes. Isso centraliza os seletores e torna o código mais limpo.
+  * **`cypress/e2e/produtos.spec.cy.js`:** Contem a lógica dos cenarios de teste de Produtos.
+  * **`cypress/e2e/userSeletoresProdutos.json`:** Contém os seletores CSS/XPath utilizados nos tetes. Isso centraliza os celetores deixando o codiga mais limpo.
 
 -----
 
